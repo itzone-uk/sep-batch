@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards</title>
+
+  <style>
+    .cards {
+      display: flex;
+      gap: 1rem;
+
+    }
+
+    .card {
+      padding: 8px;
+      width: 310px;
+      background-color: aqua;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card button {
+
+      width: 5rem;
+
+      background-color: blue;
+      color: white;
+      
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .button-div {
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cards">
+    <div class="card">
+      <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, praesentium.</p>
+        <div class="button-div"><button>Button</button></div>
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      
+    </div>
+    <!-- Add more cards here -->
+
+  </div>
+
+</body>
+
+</html>
